@@ -3,7 +3,7 @@ import java.util.Scanner;
 class SimpleInterest
 {
 	public static void main(String[] args) {
-		System.out.print("\nProgram to Compute Simple Interest -----\n");
+		System.out.print("\nProgram to Compute Simple Interest \n");
 		Interest interest = new Interest();
 		interest.input_values();
 		interest.show_interest();
