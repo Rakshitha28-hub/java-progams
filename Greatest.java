@@ -16,13 +16,25 @@ public class Greatest
        
        if(fn>sn) 
        { 
-         if(fn>tn) {System.out.print("\nThe Graetest number is:" + fn);}
-         else {System.out.print("\nThe Greatest number is:" + tn);}
+         if(fn>tn) 
+         {
+            System.out.print("\nThe Graetest number is:" + fn);
+         }
+         else 
+         {
+            System.out.print("\nThe Greatest number is:" + tn);
+         }
        }
        else
        {
-         if(sn>tn) {System.out.print("\nThe Graetest number is:" + sn);}
-         else {System.out.print("\nThe Greatest number is:" + tn);}
+         if(sn>tn) 
+         {
+            System.out.print("\nThe Graetest number is:" + sn);
+         }
+         else 
+         {
+            System.out.print("\nThe Greatest number is:" + tn);
+         }
        }
    }
 }
